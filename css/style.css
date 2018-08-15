@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/*.header > h3 {
+}
+
+pega todos os h3 que são filhos DIRETOS do .header*/
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header{
+    font-style: normal;
+    font-weight: lighter;
+    line-height: normal;
+    font-size: 14px;
+    text-align: center;
+    color: #9013FE;
+}
+
+/*NAV BAR*/
+
+nav{
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+nav p{
+    color: #9013FE;
+    display:inline-block;
+    margin-right: 700px;
+    margin-left: 100px;
+    padding: 5px;
+}
+
+nav span{
+    font-weight: 700;
+}
+
+nav a{
+    display:inline-block;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #4A4A4A;
+}
+
+/*FIM NAVBAR*/
+
+section{
+    display: inline-block;
+}
+
+
+/*ASIDE*/
+
+aside{
+    display:inline-block;
+    box-shadow: 0px 0px 1px grey;
+    padding: 20px 15px;
+    height: 400px;
+    width: 180px;
+    text-align:center;
+    font-size: 14px;
+    margin-right: 20px;
+    margin-top: 10px;
+    vertical-align: top;
+}
+
+.aside__name{
+    font-weight: 700;
+}
+
+.aside__description{
+    font-size: 13px;
+}
+
+/*fim ASIDE */
+
+
+/*MAIN*/
+
+main{
+    vertical-align: top;
+    display: inline-block;
+    width: 600px;
+}
+
+.principal__header{
+    font-size:28px;
+    text-align:left;
+    color: #4A4A4A;
+    margin-top: 0px;
+}
+
+.principal__text{
+    text-align:left;
+    line-height: 27px;
+    font-size: 20px;
+    color: #4A4A4A;
+    margin-bottom: 20px;
+}
+
+/*fim main*/
+
+/*footer*/
+footer{
+    text-align:center;
+    color: grey;
+    padding: 8px;
+    
+}
