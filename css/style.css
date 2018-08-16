@@ -28,12 +28,17 @@ header{
 
 nav{
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+    position: fixed;
+    width: 100%;
+    top:0;
+    background-color: white;
+    z-index: 1; /*para dar prioridade de "aparecimento" na tela*/ 
 }
 
 nav p{
     color: #9013FE;
     display:inline-block;
-    margin-right: 700px;
+    margin-right: 600px;
     margin-left: 100px;
     padding: 5px;
 }
@@ -52,6 +57,7 @@ nav a{
 /*FIM NAVBAR*/
 
 section{
+    margin-top: 70px;
     display: inline-block;
 }
 
