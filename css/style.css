@@ -9,13 +9,13 @@
 pega todos os h3 que são filhos DIRETOS do .header*/
 
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     margin: 0 auto;
     text-align: center;
 }
 
-header{
+header {
     font-style: normal;
     font-weight: lighter;
     line-height: normal;
@@ -26,7 +26,7 @@ header{
 
 /*NAV BAR*/
 
-nav{
+nav {
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
     position: fixed;
     width: 100%;
@@ -35,19 +35,19 @@ nav{
     z-index: 1; /*para dar prioridade de "aparecimento" na tela*/ 
 }
 
-nav p{
+nav p {
     color: #9013FE;
     display:inline-block;
-    margin-right: 600px;
-    margin-left: 100px;
+    margin-right:50%;
+    margin-left: 10%;
     padding: 5px;
 }
 
-nav span{
+nav span {
     font-weight: 700;
 }
 
-nav a{
+nav a {
     display:inline-block;
     margin-left: 20px;
     text-decoration: none;
@@ -56,7 +56,7 @@ nav a{
 
 /*FIM NAVBAR*/
 
-section{
+section {
     margin-top: 70px;
     display: inline-block;
 }
@@ -64,7 +64,7 @@ section{
 
 /*ASIDE*/
 
-aside{
+aside {
     display:inline-block;
     box-shadow: 0px 0px 1px grey;
     padding: 20px 15px;
@@ -77,11 +77,11 @@ aside{
     vertical-align: top;
 }
 
-.aside__name{
+.aside__name {
     font-weight: 700;
 }
 
-.aside__description{
+.aside__description {
     font-size: 13px;
 }
 
@@ -90,7 +90,7 @@ aside{
 
 /*MAIN*/
 
-main{
+main {
     vertical-align: top;
     display: inline-block;
     width: 600px;
@@ -119,4 +119,53 @@ footer{
     color: grey;
     padding: 8px;
     
+}
+
+/* 
+1280px (destop)
+1024px (tablet-horizontal)
+768px (tablet - vertical)
+420px (mobile) 
+*/ 
+
+@media (max-width: 1100px) {
+
+    nav a, aside {
+        display:none;
+    }
+    nav p{
+        color: #9013FE;
+        margin-left: 0%;
+        padding: 5px 3px;
+    }
+    
+    main{
+        width: 80%;
+        border: 1px solid #dbdbdb;
+        padding: 2%;
+    }
+    img {
+        width: 100%;
+    }
+    .principal__header{
+        font-size:30px;
+        text-align:left;
+        color: #4A4A4A;
+        margin-top: 0px;
+    }
+    .principal__text{
+        text-align:left;
+        font-size: 15px;
+        color: #4A4A4A;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 420) {
+    .principal__text{
+        text-align:left;
+        font-size: 10px;
+        color: #4A4A4A;
+        margin-bottom: 20px;
+    }
 }
