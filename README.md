@@ -1,4 +1,5 @@
-# websemantic
-exercicio HTML semantico {reprograma}
+# Project using HTML semantic
 
-https://natalyapeixoto.github.io/websemantic/.
+### also practicing Responsive web design using CSS media queries. 
+
+
